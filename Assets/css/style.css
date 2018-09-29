@@ -76,6 +76,10 @@ h2 {
     border-width: 1px;
     padding: 30px;
     overflow: auto;
+    margin-bottom: 150px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 13px;
 }
 
 .footer {
@@ -113,24 +117,34 @@ gallery {
     float: left;
     padding: 50px;
 }
-/*
-div.desc {
+
+.desc {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: black;
+    background-color: #4aaaa5;
     color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    bottom: 8px;
+    width: 58.5%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    font-size: 15px;
 }
-*/
+
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px 20px;
+    padding: 0 auto;
     width: 50%;
   }
-  
+
+a {
+    float: left;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+}
 
 /*contact page css*/
 
@@ -143,7 +157,7 @@ input[type=text], select, textarea {
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
@@ -155,3 +169,4 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
+
